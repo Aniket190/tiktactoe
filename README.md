@@ -1,3 +1,8 @@
+# Deployed Website
+
+tiktakgame.surge.sh
+
+
 # Nano React App Default Javascript Template
 
 The default template project for [nano-react-app](https://github.com/adrianmcli/nano-react-app).
@@ -17,9 +22,9 @@ Or edit the `start` script directly:
 
 ```
 parcel index.html -p 3000
-```
 
-## Adding styles
+
+
 
 You can use CSS files with simple ES2015 `import` statements anywhere in your Javascript:
 
