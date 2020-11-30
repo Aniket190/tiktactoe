@@ -4,8 +4,11 @@ import React from 'react';
 
 const Square = (prop) => {
     return (
-        <button type="button" className="square" onClick={prop.onClick} 
-        style={{fontWeight:prop.isWinningSquare? 'bold':'normal'}}>
+        <button type="button"  onClick={prop.onClick} 
+         className={`square ${prop.isWinningSquare ? 'winning': ' '} 
+        ${prop.value=== 'X'?' text-green':'text-orange'}`
+        }
+         >
         {prop.value} 
         </button>
     )
